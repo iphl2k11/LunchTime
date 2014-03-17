@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchTimeServer", "LunchTime\LunchTimeServer.csproj", "{8301CF79-A832-458B-83FC-35809D6C64F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchTimeUT", "LunchTimeUT\LunchTimeUT.csproj", "{2892B0D7-9291-47F4-B639-087FD297527A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchTimeClient", "LunchTimeClient\LunchTimeClient.csproj", "{EC7CB6CE-44AD-486B-9424-1984C5CC22C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		AppStore|Any CPU = AppStore|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2892B0D7-9291-47F4-B639-087FD297527A}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{2892B0D7-9291-47F4-B639-087FD297527A}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{2892B0D7-9291-47F4-B639-087FD297527A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2892B0D7-9291-47F4-B639-087FD297527A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2892B0D7-9291-47F4-B639-087FD297527A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2892B0D7-9291-47F4-B639-087FD297527A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8301CF79-A832-458B-83FC-35809D6C64F2}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
+		{8301CF79-A832-458B-83FC-35809D6C64F2}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
+		{8301CF79-A832-458B-83FC-35809D6C64F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8301CF79-A832-458B-83FC-35809D6C64F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8301CF79-A832-458B-83FC-35809D6C64F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8301CF79-A832-458B-83FC-35809D6C64F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7CB6CE-44AD-486B-9424-1984C5CC22C9}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
+		{EC7CB6CE-44AD-486B-9424-1984C5CC22C9}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
+		{EC7CB6CE-44AD-486B-9424-1984C5CC22C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7CB6CE-44AD-486B-9424-1984C5CC22C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7CB6CE-44AD-486B-9424-1984C5CC22C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7CB6CE-44AD-486B-9424-1984C5CC22C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = LunchTime\LunchTimeServer.csproj
+	EndGlobalSection
+EndGlobal
